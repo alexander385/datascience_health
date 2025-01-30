@@ -1,7 +1,7 @@
 # Supply Chain Machine Learning Analysis
 
 ## Overview
-This project applies **Machine Learning (ML) techniques** to a dataset from a **solder paste inspection process** in supply chain management. The dataset includes quality inspection data, machine performance, and board-specific attributes. The goal is to **predict soldering quality issues** using classification models and analyze key influencing factors.
+This project applies **Classification techniques** to a dataset from a **solder paste inspection process** in supply chain management. The dataset includes quality inspection data, machine performance, and board-specific attributes. The goal is to **predict soldering quality issues** using classification models and analyze key influencing factors.
 
 ## Dataset Description
 The dataset contains **891 observations** with the following variables:
