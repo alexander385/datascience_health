@@ -19,7 +19,7 @@ The dataset contains **891 observations** with the following variables:
 | **MaterialOrigin** | Origin of solder paste (S = Singapore, C = China, Q = Qatar) |
 
 ## Machine Learning Models Used
-The following classification models were applied to predict **QI (Quality Inspection result)**:
+The following classification models were applied to predict **QI**:
 
 1. **Logistic Regression**
 2. **Decision Tree Classifier**
@@ -30,7 +30,7 @@ Additionally, **K-Means Clustering** was used to group boards based on price and
 ## Preprocessing Steps
 - Converted categorical variables into appropriate formats.
 - Handled missing values using mean/mode imputation.
-- Identified and treated outliers using **Interquartile Range (IQR)**.
+- Identified and treated outliers using **IQR**.
 - Scaled numerical features where necessary.
 
 ## Model Evaluation
@@ -52,7 +52,7 @@ Each ML model was evaluated using the following metrics:
 
 ## Visualizations
 - **Confusion Matrices**: Heatmaps for each model's classification results.
-- **Feature Importance (Random Forest)**: Visualizing key variables influencing predictions.
+- **Random Forest**: Visualizing key variables influencing predictions.
 - **Decision Tree Structure**: Graphical representation of the decision-making process.
 - **Box Plots & Histograms**: Outlier detection and feature distribution.
 
